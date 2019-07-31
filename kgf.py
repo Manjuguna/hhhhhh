@@ -2,7 +2,7 @@ size8=int(input())
 ara3=[]
 for i in range(size8):
 	sur=input()
-	sur=list(map(int,st.split(" ")))
+	sur=list(map(int,sur.split(" ")))
 	lit=len(sur)
 	for j in range(lit):
 		ara3.append(sur[j])
